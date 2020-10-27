@@ -9,3 +9,4 @@ def cart_product():
 		all_digits.append(''.join(map(str,value)))
 	print(all_digits)
 
+cart_product()
