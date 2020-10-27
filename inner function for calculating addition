@@ -1,9 +1,0 @@
-def addi(c, d):
-    square = c**2
-    def innerFun(c,d):
-        return c+d
-    add = innerFun(c, d)
-    return add+5
-
-result = addi(9, 52)
-print(result)
