@@ -1,25 +1,16 @@
-/**
-  Fibonacci series in C++ using array by codebind.com
-  */
- 
-#include <iostream>
- 
-int main(void) {
-  int i,number;
-  long int arr[40];
- 
-  std::cout << "Enter the number : "<< std::endl;
-  std::cin >> number;
- 
-  arr[0]=0;
-  arr[1]=1;
- 
-  for(i = 2; i< number ; i++){
-    arr[i] = arr[i-1] + arr[i-2];
-  }
- 
-  std::cout << "Fibonacci series is: ";
-  for(i=0; i< number; i++)
-    std::cout << arr[i] << std::endl;
+#include<stdio.h>
+    int main(){
+    int n,k;
+    long int aray[20];
+
+    printf("Enter the number range:\n");
+    scanf("%d",&n);
+    aray[0]=-1;
+    aray[1]=1;
+    printf("\n FIBONACCI SERIES: \n");
+    for(k=2;k<=n+1;k++){
+    aray[k]=aray[k-1]+aray[k-2];
+    printf(" %ld",aray[k]);
+    }
   return 0;
-}
+  }
