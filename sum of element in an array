@@ -1,5 +1,5 @@
 #inlcude <bits/stdc++.h>
-using Namespace std;
+using namespace std;
 
 int main(){
 int n;
