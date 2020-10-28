@@ -1,3 +1,0 @@
-array = [10, 50, 28, 17, 23, 97, 48]
-array.sort()
-print(array)
