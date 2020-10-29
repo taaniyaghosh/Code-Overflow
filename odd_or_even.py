@@ -5,6 +5,7 @@ def check_number(number):
     else:
         print(f"The number {number} is an odd number.")
 
-
-num = int(input("Enter a number, I'll tell you if it is even or odd: "))
+        
+print("Check if your number is even or odd.")
+num = int(input("Enter a number."))
 check_number(num)
