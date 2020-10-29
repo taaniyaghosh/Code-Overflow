@@ -1,0 +1,3 @@
+GivenArray = ["R","E","V","E","R","S","E"]
+ReversedArray = GivenArray[::-1]
+print(ReversedArray)
