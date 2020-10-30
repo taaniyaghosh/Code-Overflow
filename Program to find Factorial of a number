@@ -1,0 +1,11 @@
+GivenNumber = 4
+Factorial = 1
+
+if GivenNumber < 0:
+   print(f'Factorial of {GivenNumber} does not exist since {GivenNumber} is a negative number')
+elif GivenNumber == 0 or GivenNumber == 1:
+   print(f'Factorial of {GivenNumber} is 1')
+else:
+   for i in range(2,GivenNumber+1):
+       Factorial = Factorial*i
+   print(f'Factorial of {GivenNumber} is {Factorial}')
